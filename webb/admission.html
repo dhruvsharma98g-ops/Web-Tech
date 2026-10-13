@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Student Admission Form - GCET </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo-link">
+    <img src="https://upload.wikimedia.org/wikipedia/en/7/71/GCET_Jammu_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="College Logo" class="logo-img">
+  </a>
+        <h1>Govt. College of Engineering and Technology - Jammu </h1>
+        <p class="heading">Join Our Academic Community</p>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="admission.html">Admission Form</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+
+
+    <main>
+        <section>
+            <h2>Admission Application Form</h2>
+            <form action="C:\Users\DARK KNIGHT\timepass\index.html" method="get">
+                
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="text" id="mobile" name="mobile" required placeholder="Enter 10-digit number">
+                </div>
+
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="gender" value="male" required> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                        <label><input type="radio" name="gender" value="other"> Other</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="course">Preferred Course:</label>
+                    <select id="course" name="course" required>
+                        <option value="">-- Select a Stream --</option>
+                        <option value="cse">Computer Science & Engineering</option>
+                        <option value="it">Information Technology</option>
+                        <option value="ece">Electronics & Communication</option>
+                        <option value="me">Mechanical Engineering</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Hobbies:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="hobbies" value="coding"> Coding</label>
+                        <label><input type="checkbox" name="hobbies" value="sports"> Sports</label>
+                        <label><input type="checkbox" name="hobbies" value="music"> Music</label>
+                        <label><input type="checkbox" name="hobbies" value="reading"> Reading</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Permanent Address:</label>
+                    <textarea id="address" name="address" rows="4" required placeholder="Enter street, city, state, zip code..."></textarea>
+                </div>
+
+                <div class="btn-container">
+                    <button type="submit" class="btn btn-submit">Submit Application</button>
+                    <button type="reset" class="btn btn-reset">Reset Form</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Govt. College of Engineering and Technology - Jammu  | Contact: info@GCETJammu.edu</p>
+    </footer>
+
+</body>
+</html>
